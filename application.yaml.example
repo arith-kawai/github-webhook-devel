@@ -1,0 +1,22 @@
+webserver:
+#your web server's port number
+  port: 1323
+github:
+#Your github webhook secret
+  secret: "........."
+googleapi:
+#The path of your Google Developers Api client secret file
+  clientSecretFilePath: "./client_secret_799459465223-n3c4uhqfi94h8aoosqbpisu0b62qmk5i.apps.googleusercontent.com.json"
+database:
+#"mysql" fixed
+  type: "mysql"
+#"tcp" fixed
+  protocol: "tcp"
+  host: "localhost"
+  user: "....."
+  password: "....."
+  dbName: "....."
+#A ca-cert.pem file path used by connecting to mysql with ssl
+  caCertFilePath: "rds-combined-ca-bundle.pem"
+  clientCertFilePath: ""
+  clientKeyFilePath: ""

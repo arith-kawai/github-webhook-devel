@@ -1,0 +1,131 @@
+package: .
+import:
+- package: github.com/astaxie/beego
+  subpackages:
+  - context
+- package: github.com/codegangsta/negroni
+- package: github.com/gin-gonic/gin
+- package: github.com/go-martini/martini
+- package: github.com/gocraft/web
+- package: github.com/golang/glog
+- package: github.com/golang/protobuf
+  subpackages:
+  - /proto
+  - proto/testdata
+  - protoc-gen-go/descriptor
+  - protoc-gen-go/generator
+  - protoc-gen-go/internal/grpc
+  - protoc-gen-go/plugin
+  - ptypes/duration
+- package: github.com/julienschmidt/httprouter
+- package: github.com/justinas/alice
+- package: github.com/labstack/echo
+  subpackages:
+  - middleware
+- package: github.com/labstack/gommon
+  subpackages:
+  - /color
+  - log
+- package: github.com/martini-contrib/render
+- package: github.com/mattn/go-colorable
+- package: github.com/mattn/go-isatty
+- package: github.com/rs/cors
+- package: github.com/rs/xhandler
+- package: github.com/thoas/stats
+- package: github.com/zenazn/goji
+- package: golang.org/x/crypto
+  subpackages:
+  - /ssh/terminal
+- package: golang.org/x/net
+  subpackages:
+  - /context
+  - context/ctxhttp
+  - html
+  - html/atom
+  - http2
+  - http2/hpack
+  - internal/iana
+  - internal/timeseries
+  - ipv4
+  - ipv6
+  - trace
+  - webdav/internal/xml
+  - websocket
+- package: golang.org/x/oauth2
+  subpackages:
+  - google
+  - internal
+  - jws
+  - jwt
+- package: golang.org/x/text
+  subpackages:
+  - /encoding
+  - encoding/charmap
+  - encoding/htmlindex
+  - transform
+- package: google.golang.org/api
+  subpackages:
+  - /bigquery/v2
+  - books/v1
+  - calendar/v3
+  - compute/v1
+  - container/v1
+  - drive/v2
+  - fitness/v1
+  - gensupport
+  - gmail/v1
+  - googleapi
+  - googleapi/internal/uritemplates
+  - logging/v1beta3
+  - mapsengine/v1
+  - mirror/v1
+  - prediction/v1.6
+  - pubsub/v1
+  - pubsub/v1beta2
+  - storage/v1
+  - tasks/v1
+  - urlshortener/v1
+  - youtube/v3
+- package: google.golang.org/appengine
+  subpackages:
+  - file
+  - log
+  - user
+- package: google.golang.org/cloud
+  subpackages:
+  - bigquery
+  - bigtable
+  - bigtable/internal/cbtrc
+  - bigtable/internal/cluster_data_proto
+  - bigtable/internal/cluster_service_proto
+  - bigtable/internal/data_proto
+  - bigtable/internal/duration_proto
+  - bigtable/internal/empty
+  - bigtable/internal/service_proto
+  - bigtable/internal/table_data_proto
+  - bigtable/internal/table_service_proto
+  - compute/metadata
+  - internal
+  - internal/datastore
+  - internal/opts
+  - internal/transport
+  - pubsub
+  - storage
+- package: google.golang.org/grpc
+  subpackages:
+  - benchmark
+  - benchmark/grpc_testing
+  - benchmark/stats
+  - codes
+  - credentials
+  - credentials/oauth
+  - examples/helloworld/helloworld
+  - examples/route_guide/routeguide
+  - grpclog
+  - health/grpc_health_v1alpha
+  - interop
+  - interop/grpc_testing
+  - metadata
+  - naming
+  - peer
+  - transport
